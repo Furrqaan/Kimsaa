@@ -1,0 +1,112 @@
+/*custom css */
+
+
+
+.alert{
+	background-color: #CFF; 
+	}
+
+.navi{background:#009; height:94px;
+ }
+ .fb{color:#FFF; font-size:45px; font-weight:700; margin-left:160px;}
+ 
+.mainform{margin-right:140px;}
+
+
+.email{height:25px;}
+.pass {height:25px; }
+.butt{background-color: #00C; border-bottom-color: #00C; font-size:11px; margin-top:30px;}
+
+.centerr{ margin-top:60px; font-size:20px;}
+.text-capitalize{ font-size:18px;}
+
+
+
+
+
+
+.formcenter{ position:relative; left:700px; bottom:320px;}
+
+.firstname{width:110%;}
+
+
+.mobileandnewwpass{width:61%;}
+.mobile{width:10%;}
+.bday{font-size:17px;}
+.female{font-size:23px;}
+.male{font-size:23px;}
+.signupbutton{ width:30%; background-color:  #0C0; color:white; font-size:20px; font-weight:700}
+
+
+
+.footertext{ font-size:14px;}
+
+.f1{ border-bottom: 1px solid; border-bottom-color:#000; }
+
+
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s}
+	.
+	close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+	
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 60%;
+	 
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+.language1{position:relative; left:240px; bottom:110px;}
+.language2{position:relative; left:380px; bottom:630px;}
+.language3{position:relative; left:530px; bottom:1120px;}
+.language4{position:relative; left:650px; bottom:1640px;}

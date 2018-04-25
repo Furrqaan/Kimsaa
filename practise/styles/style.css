@@ -1,0 +1,33 @@
+.mr-top{
+	padding-top: 50px;
+}
+#nav{
+	background: black;
+}
+.conten{
+	background: black;
+}
+.logo{
+	width: 250px;
+	height: 130px;
+	margin-left: 20px;
+}
+.navbar{
+	padding: 3px;
+}
+.nav-item{
+	margin-top: 60px;
+	margin-left:20px;
+	padding: 10px;
+	font-size: 22px;
+}
+.navbar-brand{
+	margin-left: -20px;
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic;
+}
+.nav-item a:hover{
+	font-weight: bold;
+	background-color: blue;
+}

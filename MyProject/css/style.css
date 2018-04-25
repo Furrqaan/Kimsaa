@@ -1,0 +1,158 @@
+.mr-top{
+	padding-top: 50px;
+}
+#nav{
+	background: black;
+}
+.conten{
+	background: black;
+}
+.logo{
+	width: 250px;
+	height: 130px;
+	margin-left: 20px;
+}
+.navbar{
+	padding: 3px;
+}
+.nav-item{
+	margin-top: 60px;
+	margin-left:20px;
+	padding: 10px;
+	font-size: 22px;
+}
+.navbar-brand{
+	margin-left: -20px;
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic;
+}
+.nav-item a:hover{
+	font-weight: bold;
+	background-color: blue;
+}
+.mr-slide{
+	margin-top: 10px;
+}
+.mr-top{
+	margin-top: 50px;
+}
+.cont-cont{
+	background: black;
+}
+.fa-desktop,.fa-cogs,.fa-search,.fa-cart-plus,.fa-code,.fa-android {
+	width: 150px;
+	height: 150px;
+	border-radius: 90px;
+	background-color: grey;
+	padding:50px;
+	color: white;
+	font-size: 50px;
+}
+a .fa-desktop:hover{background: #cc7a00;}a .fa-cogs:hover{background: #cc7a00;}a .fa-search:hover{background: #cc7a00;}
+a .fa-cart-plus:hover{background: #cc7a00;}a .fa-code:hover{background: #cc7a00;}a .fa-android:hover{background: #cc7a00;}
+h3{
+	color: #f6a800;
+	font-family: 'open_sanslight';
+    font-size: 25px;
+}
+p{
+	font-size: 16px;
+    font-family: 'open_sansregular';
+    line-height: 1.6em;
+}
+a{
+	color: #f6a800;
+	font-family: 'open_sansregular';
+}
+.cont-img{
+	height: 280px;
+}
+/*HoverEffect*/
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+/*HoverEffect Ends*/
+
+
+
+
+
+
+
+
